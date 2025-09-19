@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="podcast sobre la evolución de la web y video tutorial para crear tu primera página en HTML.">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>TechBlog | Recursos</title>
+</head>
+<body>
+  <div class="banner">
+    <span>TechBlog</span>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="contenedor">
+    <h1>Tecnología, Desarrollo Web y Productividad</h1>
+  </header>
+
+  <main class="contenedor">
+    <section class="tarjeta">
+      <h2>Recursos Multimedia</h2>
+      <p>A continuación encontrarás material en audio y video que complementa nuestros artículos y te ayudará a profundizar en los temas de tecnología.</p>
+
+      <article class="tarjeta">
+        <h3>Podcast: La evolución de la Web</h3>
+        <p>En este episodio hablamos sobre cómo pasamos de la Web 1.0 a la Web 3.0 con ejemplos sencillos.</p>
+        <audio controls>
+          <source src="media/audio.mp3" type="audio/mpeg">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Video Tutorial: Tu primera página en HTML</h3>
+        <p>En este video aprenderás paso a paso cómo crear una página básica en HTML y darle estructura.</p>
+        <video controls width="480">
+          <source src="media/video.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </article>
+
+      <h3>Galería</h3>
+      <div class="galeria">
+        <img src="img/galeria1.jpg" alt="Recurso 1">
+        <img src="img/galeria2.jpg" alt="Recurso 2">
+        <img src="img/galeria3.jpg" alt="Recurso 3">
+        <img src="img/galeria4.jpg" alt="Recurso 4">
+        <img src="img/galeria5.jpg" alt="Recurso 5">
+        <img src="img/galeria6.jpg" alt="Recurso 6">
+      </div>
+
+      <h3>Tabla de recursos</h3>
+      <table class="tabla-recursos">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Tipo</th>
+            <th>Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Evolución de la Web</td><td>Podcast</td><td>18:20</td></tr>
+          <tr><td>Tu primera página HTML</td><td>Video</td><td>12:05</td></tr>
+          <tr><td>Accesibilidad básica</td><td>Video</td><td>09:40</td></tr>
+          <tr><td>Buenas prácticas CSS</td><td>Podcast</td><td>22:10</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="contenedor">
+    <p>© 2025 Tech Blog | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

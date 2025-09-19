@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aqui describiremos la evolucion de la web desde la 1.0 a la proxima 3.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>TechBlog | Inicio</title>
+</head>
+<body>
+  <div class="banner">
+    <span>TechBlog</span>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="contenedor tarjeta">
+    <h1 id="saludo"></h1>
+    <div style="display:flex;gap:12px;align-items:center;margin-top:8px;">
+      <button id="btnVisitas">Sumar visita</button>
+      <span>Visitas: <strong id="contador">0</strong></span>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="tarjeta">
+      <h2 class="mensaje">Evolución de la Web</h2>
+      <p id="texto">Párrafo de ejemplo para cambiar su color con los botones.</p>
+      <div style="display:flex;gap:8px;margin:.5rem 0 1rem;">
+        <button id="btnRojo">Rojo</button>
+        <button id="btnVerde">Verde</button>
+        <button id="btnAzul">Azul</button>
+      </div>
+
+      <article class="tarjeta">
+        <h3>Web 1.0</h3>
+        <p>En los años 90, la web era principalmente estática.</p>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Web 2.0</h3>
+        <p>Participación y colaboración del usuario.</p>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Web 3.0</h3>
+        <p>Descentralización y mayor control del usuario sobre sus datos.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="contenedor">
+    <p>© 2025 Tech Blog | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
